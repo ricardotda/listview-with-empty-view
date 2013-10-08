@@ -28,11 +28,10 @@ public class MainActivity extends ListActivity implements View.OnClickListener {
     public void onClick(View v) {
         if (v.getId() == R.id.clear) {
             versionNames = new String[] {};
-            setAdapter();
         } else if (v.getId() == R.id.set) {
             versionNames = getResources().getStringArray(R.array.version_names);
-            setAdapter();
         }
+        setAdapter();
     }
 
     private void setAdapter() {
