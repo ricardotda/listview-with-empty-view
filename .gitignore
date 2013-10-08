@@ -18,3 +18,10 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# AndroidStudio project files
+.idea/
+
+# Gradle generated folder
+.gradle
+*.iml
