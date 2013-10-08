@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListView With Empty View</string>
+    <string name="clean_list">Clean List</string>
+    <string name="set_list">Set List</string>
+    <string name="empty_text">No data</string>
+</resources>
